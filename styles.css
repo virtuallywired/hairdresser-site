@@ -102,6 +102,12 @@ h1 span,h2 span { color:var(--orange); }
 .contact-form input:focus,.contact-form textarea:focus { border-color:var(--orange); }
 .contact-form textarea { min-height:125px; resize:vertical; }
 .contact-form .button { cursor:pointer; }
+.contact-form .button:disabled { cursor:wait; opacity:.7; }
+.spam-trap { position:absolute !important; left:-10000px; width:1px !important; height:1px; opacity:0; }
+.form-status { margin:15px 0 0; font-size:13px; line-height:1.6; }
+.form-status:empty { display:none; }
+.form-status.success { color:#b7dfb0; }
+.form-status.error { color:#f1a896; }
 .form-note { margin:15px 0 0; color:var(--muted); font-size:12px; line-height:1.6; }
 .site-footer { padding-top:65px; background:#121110; border-top:1px solid #292625; }
 .footer-grid { display:grid; grid-template-columns:2fr 1.5fr 1fr; gap:70px; padding-bottom:60px; }

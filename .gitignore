@@ -1,2 +1,5 @@
 .DS_Store
 old-site-data/
+.env
+.env.*
+.vercel/
